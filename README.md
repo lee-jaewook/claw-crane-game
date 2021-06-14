@@ -27,3 +27,32 @@
   - 1 ~ 100의 각 숫자는 각기 다른 인형의 모양을 의미하며 같은 숫자는 같은 모양의 인형을 나타냅니다.
 - moves 배열의 크기는 1 이상 1,000 이하입니다.
 - moves 배열 각 원소들의 값은 1 이상이며 board 배열의 가로 크기 이하인 자연수입니다.
+
+### Solution code
+```python
+def solution(board, moves):
+
+    bucket = []
+
+    answer = 0
+
+    for move in moves:
+
+        for i in range(len(board)):
+
+            if board[i][move-1] > 0:
+
+                bucket.append(board[i][move-1])
+
+                board[i][move-1] = 0
+
+                if bucket[-1:] == bucket[-2:-1]:
+
+                    answer += 2
+
+                    bucket = bucket[:-2]
+
+                break
+
+    return answer
+```
