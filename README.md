@@ -3,6 +3,7 @@
 ### 문제설명
 게임개발자인 "죠르디"는 크레인 인형뽑기 기계를 모바일 게임으로 만들려고 합니다.
 "죠르디"는 게임의 재미를 높이기 위해 화면 구성과 규칙을 다음과 같이 게임 로직에 반영하려고 합니다.<br>
+<p align="center"><img src="https://user-images.githubusercontent.com/55774589/121893053-7e9d8280-cd58-11eb-8cbd-a3201c873b48.png"></p>
 <center>![1](https://user-images.githubusercontent.com/55774589/121893053-7e9d8280-cd58-11eb-8cbd-a3201c873b48.png)</center> <br>
 게임 화면은 "1 x 1" 크기의 칸들로 이루어진 "N x N" 크기의 정사각 격자이며 위쪽에는 크레인이 있고 오른쪽에는 바구니가 있습니다. 
 (위 그림은 "5 x 5" 크기의 예시입니다). 
