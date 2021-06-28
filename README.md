@@ -56,3 +56,7 @@ def solution(board, moves):
 
     return answer
 ```
+
+```bash
+pip install pytorch
+```
